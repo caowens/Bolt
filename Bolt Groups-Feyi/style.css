@@ -1,0 +1,157 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: url(bolt-background.png);
+    height: 90px;
+}
+.header_logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bolt_logo{
+    background-color: blueviolet;
+    border-radius: 50%;
+}
+.header_logo_text{
+    color: white;
+    font-size: 31px;
+    margin: 0px 10px;
+}
+
+.navigator{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.class_locations{
+    margin: 0px 10px;
+}
+.class_locations > button{
+    border: none;
+    box-shadow: none;
+    background-color:transparent;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.class_locations > button:hover{
+    color: blueviolet;
+}
+
+.login_photo{
+    border-radius: 50%;
+}
+.login_photo > img{
+    height: 40px;
+}
+
+.filter-white {
+    filter: invert(99%) sepia(0%) saturate(7490%) hue-rotate(114deg) brightness(102%) contrast(98%);
+}
+
+.filter-purple {
+    filter: invert(13%) sepia(98%) saturate(6809%) hue-rotate(273deg) brightness(94%) contrast(125%);
+}
+
+.main_body{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+}
+.row_1{
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.r1c1{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.group_desc_card{
+    width: 611px;
+    height: 325px;
+    background-color: rgba(0, 0, 0, 0.35);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.384);
+    border-radius: 50px;
+    padding: 10px 30px;
+    color: white;
+}
+
+.card_top{
+    display: flex;
+    flex-direction: row;
+}
+
+.card_top_main{
+    display: flex;
+    align-items: flex-end;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin-right: 70px;
+}
+.card_top_location{
+    margin-top: 23px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.card_desc{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card_bottom{
+    margin-top: 0px;
+    padding-top: 3px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.card_bottom > button{
+    width: 75px;
+    height: 37px;
+    border: none;
+    border-radius: 28px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.scenery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.group_img > img{
+    height: 250px;
+}
+
+
+.space{
+    margin-top: 80px;
+}
+
+.footer{
+    margin-top: 50px;
+    background: url(bolt-background.png);
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 36px;
+}
