@@ -1,6 +1,6 @@
 /* Charles Owens */
 body {
-    background-image: url("images/bolt-background.png");
+    background-image: url("../images/bolt-background.png");
 }
 .container {
     display: flex;
