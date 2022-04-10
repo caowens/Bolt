@@ -1,0 +1,61 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-image:url("bolt-background.png");
+}
+.container{
+    display: flex;
+    width: 90vw;
+}
+.image-block{
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 50px;
+    color: #ffffff;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    position: relative;
+    transition: flex 0.7s ease-in;
+}
+.image-block h3{
+    font-size: 32px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+    text-shadow: #000 1px 0 10px;
+}
+.image-block.active{
+    flex: 5;
+}
+.image-block.active h3{
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
+@media(max-width: 768px){
+    .image-block h3{
+        font-size: 24px;
+    }
+}
+@media(max-width: 480px){
+    .container{
+        width: 100vw;
+    }
+    .image-block:nth-of-type(4),
+    .image-block:nth-of-type(5){
+        display: none;
+    }
+    .image-block h3{
+        font-size: 16px;
+    }
+}
