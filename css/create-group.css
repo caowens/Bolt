@@ -207,7 +207,12 @@ a:hover {
 .logo-footer {
     width: 100px;
 }
-.footer {
+.footer{
+    margin-top: 50px;
+    height: 90px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 36px;
 }

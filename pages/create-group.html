@@ -39,14 +39,14 @@
             </div>
         </div>
         <!-- Add Image Section -->
-        <div class="container-3">
-            <input style="display:none" type="file" id="my-file">
-            <button class="box-add-image" type="button" onclick="document.getElementById('my-file').click()">
-                <h3>Add Image</h3>
-            </button>
-        </div>
+        <form action="../Bolt Groups-Feyi/index.html">
+            <div class="container-3">
+                <input style="display:none" type="file" id="my-file" name="image" accept="image/*">
+                <button class="box-add-image" type="button" onclick="document.getElementById('my-file').click()">
+                    <h3>Add Image</h3>
+                </button>
+            </div>
         <!-- White Section -->
-        <form action="/action_page.php">
             <div class="container-5">
                 <div class="container-4">
                     <div class="members-section">
@@ -69,12 +69,13 @@
                         <textarea class="purpose" name="purpose" rows="2" cols="20" placeholder="Your group's purpose"></textarea>
                     </div>
                 </div>
-                <button class="create">Create</button>
+                <button type="submit" class="create" id="create-group">Create</button>
             </div>
         </form>
         <!-- Footer -->
         <div class="footer">
-            <img src="../images/bolt-logo.svg" class="filter-purple logo-footer">
+            <!-- <img src="../images/bolt-logo.svg" class="filter-purple logo-footer"> -->
+            <img class= "filter-purple"src="../images/logo.svg" alt="" height="46px">
         </div>
 
     </div>
