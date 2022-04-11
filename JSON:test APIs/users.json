@@ -1,0 +1,29 @@
+[
+    {
+        "username":"charles123",
+        "email":"charles123@gmail.com",
+        "password":"charles_pass"
+    },
+    {
+        "username":"asha123", 
+        "email":"asha123@gmail.com",
+        "password":"asha_pass"
+    },
+    {
+        "username":"timia123",
+        "email":"timia123@gmail.com",
+        "password":"timia_pass"
+    },
+    {
+        "username":"feyi123",
+        "email":"feyi123@gmail.com",
+        "password":"feyi_pass"
+    },
+    {
+        "username":"justin123",
+        "email":"justin123@gmail.com",
+        "password":"justin_pass"
+    }
+]
+
+

@@ -1,0 +1,37 @@
+[
+    {
+        "host":"charles123",
+        "name":"Corvette Corvette",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate illo similique amet atque reprehenderit sequi nostrum fuga, accusamus molestias natus, quae eos possimus, iure praesentium nobis laboriosam provident itaque laborum.",
+        "location":"San Francisco, CA",
+        "image":""
+    },
+    {
+        "host":"timia123",
+        "name":"Mighty Mustangs",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate illo similique amet atque reprehenderit sequi nostrum fuga, accusamus molestias natus, quae eos possimus, iure praesentium nobis laboriosam provident itaque laborum.",
+        "location":"Seattle, WA",
+        "image":""
+    },
+    {
+        "host":"asha123",
+        "name":"Tesla Life",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate illo similique amet atque reprehenderit sequi nostrum fuga, accusamus molestias natus, quae eos possimus, iure praesentium nobis laboriosam provident itaque laborum.",
+        "location":"Austin, TX",
+        "image":""
+    },
+    {
+        "host":"feyi123",
+        "name":"Camara Joyriders",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate illo similique amet atque reprehenderit sequi nostrum fuga, accusamus molestias natus, quae eos possimus, iure praesentium nobis laboriosam provident itaque laborum.",
+        "location":"Nashville, TN",
+        "image":""
+    },
+    {
+        "host":"justin123",
+        "name":"GTR",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate illo similique amet atque reprehenderit sequi nostrum fuga, accusamus molestias natus, quae eos possimus, iure praesentium nobis laboriosam provident itaque laborum.",
+        "location":"NYC, NY",
+        "image":""
+    }
+]

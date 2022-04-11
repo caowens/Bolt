@@ -1,0 +1,38 @@
+[
+    {
+        "name":"Corvette Spring Fling",
+        "date":"04/12/22",
+        "address":"123 Fast Track Lane",
+        "group":"Corvette Corvette",
+        "image":""
+    },
+    {
+        "name":"Mustangs Summer Blowout",
+        "date":"05/23/22",
+        "address":"456 Faster Than You Blvd",
+        "group":"Mighty Mustangs",
+        "image":""
+    },
+    {
+        "name":"Elon Twitter Celebration",
+        "date":"04/20/22",
+        "address":"1 Tesla Road",
+        "group":"Tesla Life",
+        "image":""
+    },
+    {
+        "name":"Jumping Joyride",
+        "date":"06/21/22",
+        "address":"789 Racetrack Dr",
+        "group":"Camara Joyriders",
+        "image":""
+    },
+    {
+        "name":"Gatorade Refuel",
+        "date":"05/18/22",
+        "address":"147 Just Do It Ct",
+        "group":"gtr",
+        "image":""
+    }
+]
+
