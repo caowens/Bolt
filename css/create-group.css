@@ -19,16 +19,14 @@ body {
     height: 175px;
     float: left;
     position: relative;
-    /* margin-bottom: 1150px; */
-    margin: -25px 0px 0px 0px;
-    /* padding: 0px 0px 0px 0px; */
+    margin: 0px 0px 0px 0px;
 }
 .profile{
     width: 50px;
     height: 50px;
     float: right;
     position: relative;
-    margin: 5px 5px 5px 5px;
+    margin: 15px 15px 15px 10px;
 }
 .header{
     width: 100%;
@@ -120,6 +118,9 @@ body {
     color: #8000FF;
     cursor: pointer;
 }
+.box-add-image > h3 {
+    padding-top: 5px;
+}
 .container-4 {
     display: flex;
     flex-direction: row;
@@ -201,10 +202,10 @@ body {
     color: #FFFFFF;
     cursor: pointer;
 }
-.logo-footer {
+/* .logo-footer {
     width: 100px;
-}
-.footer{
+} */
+/* .footer{
     margin-top: 50px;
     height: 90px;
     display: flex;
@@ -212,4 +213,86 @@ body {
     align-items: center;
     color: white;
     font-size: 36px;
+} */
+.footer{
+	background-image: url("../images/bolt-background.png") ;
+    padding: 70px 0;
+    display: flex-row;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #8a1ee9;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+/* .container-footer{
+	position: absolute;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+} */
+/*responsive*/
+@media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+    }
+}
+@media(max-width: 574px){
+    .footer-col{
+        width: 100%;
+    }
+}
+a {
+    text-decoration: none;
 }
