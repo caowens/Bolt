@@ -121,6 +121,7 @@ a:hover {
 }
 .box-add-image:hover {
     color: #8000FF;
+    cursor: pointer;
 }
 .container-4 {
     display: flex;

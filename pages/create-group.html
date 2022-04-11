@@ -40,11 +40,10 @@
         </div>
         <!-- Add Image Section -->
         <div class="container-3">
-            <a href="#">
-                <div class="box-add-image">
-                    <h3>Add Image</h3>
-                </div>
-            </a>
+            <input style="display:none" type="file" id="my-file">
+            <button class="box-add-image" type="button" onclick="document.getElementById('my-file').click()">
+                <h3>Add Image</h3>
+            </button>
         </div>
         <!-- White Section -->
         <form action="/action_page.php">
