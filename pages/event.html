@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/event.css">
+    <title>Add an Event</title>
+</head>
+<body>
+    <div class="Event-Page">
+        <div class="Navigation-Bar">
+            <div class="flex-logo"><a href="#"><img src="../images/bolt-logo.svg" class="filter-purple logo"></a></div>
+            <div class="Page-Select Page-Select-Flex">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">GROUPS</a></li>
+                    <li><a class="active" href="#">EVENTS</a></li>
+                    <li><a href="#">INFO</a></li>
+                </ul>
+            </div>
+            <div class="flex-profile"><a href="#"><img src="../images/profile-svgrepo-com (1).svg" class="profile filter-white"></a>
+            </div>
+        </div>
+        <div class="Title-Section">
+            <div class="flex-create-title">
+                <h1 class="create-title">ADD AN EVENT</h1>
+            </div>
+        </div>
+        <div class="Event-Creation">
+            <div class="Event-Information">
+                <div class="Event-Details">
+                    <div>
+                        <input type="text" class="Location" placeholder = "Where is your event being held?">
+                    </div>
+                    <br>
+                    <div>
+                        <input type="text" class="Contact-Info" placeholder = "Enter a form of contact so participants can contact you">
+                    </div>
+                    <br>
+                    <div>
+                        <form action="/action_page.php">
+                            <label class="label" for="date">Event Date:</label>
+                            <input class ="Date" type="date" id="date" name="date">
+                          </form>
+                    </div>
+                    <div>
+                        <form action="/action_page.php">
+                            <label class="label" for="start-time">Event Start Time:</label>
+                            <input class="Time" type="time" id="start-time" name="start-time">
+                          </form>
+                    </div>
+                    <div>
+                        <form action="/action_page.php">
+                            <label class="label" for="end-time">Event Ending Time:</label>
+                            <input class="Time" type="time" id="end-time" name="end-time">
+                          </form>
+                    </div>
+                    <div>
+                        <form action="/action_page.php">
+                            <label class="label" for="flyer">Event flyer:</label>
+                            <input class="label" type="file" id="flyer" name="flyer"><br><br>
+                          </form>
+                    </div>
+                </div>
+                <div class="Event-Description">
+                    <input type="text" class="Event-Name" placeholder = "Give your event a name!">
+                    <textarea class="Description" name="Description" rows="2" cols="20" placeholder="Describe your event"></textarea>
+                    <p class="label"> Who can participate in this event:</p>
+                    <form>
+                        <input type="radio" id="Anyone" name="participants" value="Anyone">
+                        <label class="label" for="anyone">Anyone</label><br>
+                        <input type="radio" id="Group-Members" name="participants" value="Group-Members">
+                        <label class="label" for="Group-Members">Group Members</label><br>
+                      </form>                   
+                </div>
+            </div>
+            <button class="btn">Add Event</button>
+        </div>
+        <div class="footer">
+            <img src="../images/bolt-logo.svg" class="filter-purple logo-footer">
+        </div>
+    </div>
+</body>
+</html>
