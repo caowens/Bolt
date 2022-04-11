@@ -1,0 +1,200 @@
+body {
+    background-image: url("bolt-background.png");
+}
+.Event-Page {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.logo {
+    position: absolute;
+    width: 70px;
+    top: 0;
+}
+.profile {
+    position: absolute;
+    width: 39px;
+    height: 37px;
+    top: 15px;
+}
+/* Changing the color of the profile and logo svgs */
+.filter-purple {
+    filter: invert(13%) sepia(98%) saturate(6809%) hue-rotate(273deg) brightness(94%) contrast(125%);
+}
+.filter-white {
+    filter: invert(99%) sepia(0%) saturate(7490%) hue-rotate(114deg) brightness(102%) contrast(98%);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    position: -webkit-sticky;
+    position: sticky; /* Lets the nav bar "stick" in place while scrolling */
+    top: 0;
+    font-family: Arial Rounded MT Bold;
+    display: inline-block;
+}  
+li {
+    float: left; /* gets the block elements to float next to each other */
+} 
+li a {
+    display: block; /* Allows us to specify padding */
+    color: white;
+    text-align: center;
+    padding: 14px 16px; /* Specifies padding between each <a> element */
+    text-decoration: none;
+}
+a:hover {
+    color: #8000FF;
+}
+.active {
+    color: #8000FF;
+}
+.Page-Select {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+.Navigation-Bar {
+    display: flex;
+    border: 1px;
+    align-items: center;
+    justify-content: center;
+}
+.flex-logo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Page-Select-Flex {
+    flex: 2;
+}
+.flex-profile {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Title-Section {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.create-title {
+    color: #8000FF;
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 111px;
+    text-align: center;
+}
+.Event-Information {
+    display: flex;
+    flex-direction: row;
+}
+.Event-Details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-right: 10px;
+}
+.label{
+    color:#8000FF;
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+}
+.Event-Description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    flex: 1;
+}
+.Event-Name, .Location, .Contact-Info {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    width: 347px;
+    height: 38px;
+
+    background: rgba(119, 119, 119, 0.19);
+    border-radius: 2px;
+    border-color: transparent;
+    margin-top: 10px;
+}
+.Time, .Date {
+    width: 150px;
+    height: 25px;
+    background: #8000FF;
+    border-radius: 21px;
+    border: none;
+    margin-bottom: 10px;
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.Event-Creation {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    margin-top: 20px;
+}
+.Description {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    width: 347px;
+    height: 212px;
+
+    background: rgba(119, 119, 119, 0.19);
+    border-radius: 2px;
+    border-color: transparent;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    text-indent: 4px;
+}
+.btn {
+    width: 212px;
+    height: 42px;
+    background: #8000FF;
+    border-radius: 21px;
+    border: none;
+    margin-bottom: 10px;
+    font-family: 'Arial Rounded MT Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.logo-footer {
+    width: 100px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+}
