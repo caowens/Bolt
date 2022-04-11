@@ -7,7 +7,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background: url(bolt-background.png);
+    background: url(../images/bolt-background.png);
     height: 90px;
 }
 .header_logo{
@@ -96,7 +96,7 @@
 
 .footer{
     margin-top: 50px;
-    background: url(bolt-background.png);
+    background: url(../images/bolt-background.png);
     height: 90px;
     display: flex;
     justify-content: center;
