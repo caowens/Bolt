@@ -1,0 +1,136 @@
+[
+    {
+        "id": "1",
+        "Year": 2022,
+        "Make": "Tesla", 
+        "Model": "Model S", 
+        "0-60": 2.0, 
+        "Quarter Mile": 9.3, 
+        "Img":"https://platform.cstatic-images.com/xlarge/in/v2/stock_photos/cb0a788f-fa5f-49d2-a760-a7f69c8baeac/72c79384-8388-4c16-82f0-6fef0bd07495.png" 
+    },
+    {
+        "id": "2",
+        "Year": 2021,
+        "Make": "Ferrari", 
+        "Model": "SF90 Stradale Assetto Fiorano", 
+        "0-60": 2.0, 
+        "Quarter Mile": 9.5, 
+        "Img":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.motortrend.com%2Fnews%2F2021-ferrari-sf90-stradale-assetto-fiorano-record-indianapolis-motor-speedway%2F&psig=AOvVaw0axT-qdNKhEowVTIzfUUUi&ust=1649545044857000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCKin67bIhfcCFQAAAAAdAAAAABAD"
+    },
+
+    {
+        "id": "3",
+        "Year": 2021,
+        "Make": "Porsche", 
+        "Model": "911 Turbo S Lightweight", 
+        "0-60": 2.1, 
+        "Quarter Mile": 9.9,
+        "Img": "https://files.porsche.com/filestore/image/multimedia/none/911-tus-modelimage-sideshot/model/930894f1-6214-11ea-80c8-005056bbdc38/porsche-model.png"
+    },
+    {
+        "id": "4",
+        "Year": 2022,
+        "Make": "Tesla", 
+        "Model": "Model S Plaid", 
+        "0-60": 2.1, "Quarter Mile": 9.3, 
+        "Img": "https://cdcssl.ibsrv.net/autodata/images/?IMG=USD10TSC024D01302.JPG&WIDTH=372"
+    },
+    {
+        "id": "5",
+        "Year": 2021,
+        "Make": "Mercedes", 
+        "Model": "AMG GT 63 4MATIC", 
+        "0-60": 2.6, 
+        "Quarter Mile": 10.7, 
+        "Img": "https://platform.cstatic-images.com/large/in/v2/stock_photos/38857270-5621-402a-9f56-9973afe54ee4/726c2934-cdde-4467-81e9-f8044429b03d.png"
+    },
+    {
+        "id": "6",
+        "Year": 2015,
+        "Make": "Nissan", 
+        "Model": "GT-R NISMO", 
+        "0-60": 2.8, 
+        "Quarter Mile": 11.0, 
+        "Img":"https://o.aolcdn.com/images/dims3/GLOB/legacy_thumbnail/800x450/format/jpg/quality/85/http://o.aolcdn.com/hss/storage/adam/e4faa0b203b16e05104f1f4691138574/2014-gtr-nismo.jpg"
+    },
+    {
+        "id": "7",
+        "Year": 2019,
+        "Make": "BMW", 
+        "Model": "M4 CS", 
+        "0-60": 3.7, 
+        "Quarter Mile": 12.0, 
+        "Img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnTRaBp9TQOIlmk25BgSsK1n6WhmFmXWyPXQ&usqp=CAU"
+    },
+    {
+        "id": "8",
+        "Year": 2017,
+        "Make": "Chevy", 
+        "Model": "Camaro ZL1", 
+        "0-60": 3.4, 
+        "Quarter Mile": 11.4, 
+        "Img": "https://static.wikia.nocookie.net/forzamotorsport/images/9/93/HOR_XB1_Chevy_Camaro_17_PO.png/revision/latest?cb=20190825154207"
+    },
+    {
+        "id": "9",
+        "Year": 2015,
+        "Make": "Dodge", 
+        "Model": "Charger SRT Hellcat",
+        "0-60": 3.5, 
+        "Quarter Mile": 11.6, 
+        "Img":"https://www.speednik.com/files/2014/09/aerodynamics-help-2015-charger-srt-hellcat-reach-204-mph4.jpg" 
+    },
+    {
+        "id": "10",
+        "Year": 2020,
+        "Make": "Dodge", 
+        "Model": "Charger R/T Scat Pack", 
+        "0-60": 3.9, 
+        "Quarter Mile": 12.3, 
+        "Img": "https://file.kelleybluebookimages.com/kbb/base/evox/CP/14278/2020-Dodge-Charger-front_14278_032_2400x1800_PW7.png"
+    },
+    {
+        "id": "11",
+        "Year": 2021,
+        "Make": "Dodge", 
+        "Model": "Durango SRT Hellcat", 
+        "0-60": 3.6, "Quarter Mile": 12.0, 
+        "Img": "https://media.ed.edmunds-media.com/dodge/durango/2021/fe/2021_dodge_durango_actf34_fe_427211_1600.jpg"
+    },
+    {
+        "id": "12",
+        "Year": 2018,
+        "Make": "Ford", 
+        "Model": "Mustang GT", 
+        "0-60": 3.8, 
+        "Quarter Mile": 12.1, 
+        "Img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_kKbxcDqViWe2rKxCVzg0f48HZ2rCCYDhVg&usqp=CAU" 
+    },
+    {
+        "id": "13",
+        "Year": 2018,
+        "Make": "Jeep", 
+        "Model": "Grand Cherokee Trackhawk", 
+        "0-60": 3.4, 
+        "Quarter Mile": 11.8, 
+        "Img": "https://cdn.motor1.com/images/mgl/KEnVb/s1/2018-jeep-grand-cherokee-trackhawk-first-drive.jpg"
+    },
+    {
+        "id": "15",
+        "Year": 2017,
+        "Make": "Dodge", 
+        "Model": "Charger Daytona", 
+        "0-60": 5.1, 
+        "Quarter Mile": 13.7, 
+        "Img": "https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/wp-content/uploads/2016/08/2017-Dodge-Charger-Daytona-PLACEMENT-626x382.jpg?resize=480:*"
+    },
+    {
+        "id": "16",
+        "Year": 2021,
+        "Make": "Honda", 
+        "Model": "Civic Type R", 
+        "0-60": 5.0,
+        "Quarter Mile": 13.6, 
+        "Img":"https://platform.cstatic-images.com/large/in/v2/stock_photos/7bb5cb1c-0348-4e7a-a1e8-cd9cca7666f4/004b0087-e6bc-4df3-a0c6-86c28075d724.png"
+    }
+]
