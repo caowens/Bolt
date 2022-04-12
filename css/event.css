@@ -1,5 +1,5 @@
 body {
-    background-image: url("bolt-background.png");
+    background-image: url("../images/bolt-background.png");
 }
 .Event-Page {
     display: flex;
