@@ -20,7 +20,7 @@ body{
     min-height: 100vh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /*background: linear-gradient(to bottom, rgb(42, 2, 89),rgb(77, 6, 159),rgb(100, 10, 202),rgb(200, 151, 255));*/
-    background-image: url(Flame_Spitting_McLaren_720s__4k.gif);
+    background-image: url("../images/Flame_Spitting_McLaren_720s__4k.gif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,7 +30,7 @@ body{
     height: 500px;
     background: red;
     overflow: hidden;
-    background: url(login-purple-unsplash.jpg) no-repeat center / cover;
+    background: url("../images/login-purple-unsplash.jpg") no-repeat center / cover;
     border-radius: 10px;
     box-shadow: 5px 20px 50px #000;
 }
