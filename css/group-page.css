@@ -412,5 +412,21 @@ div[data-title]:hover:after {
 @media screen and (max-width: 1060px) {
     .prow {
         flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .product-image{
+        display: none;
+    }
+    #container{
+        display: flex;
+        justify-content: center;
+        margin: 0 10px;
+    }
+    /* .product-details{
+        width: auto;
+    } */
+    .jzdcal{
+        display: none;
     }
 }
