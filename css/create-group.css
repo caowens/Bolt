@@ -29,41 +29,70 @@ body {
     margin: 15px 15px 15px 10px;
 }
 .header{
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    box-sizing: border-box;
-    position:relative;
-    width:100%;
-    z-index:10;
-    max-width:100%;
-    margin-top: 0px;
-    padding-bottom: 0px;
-    margin-bottom: -40px;
-    margin-right: auto;
-    margin-left:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: url("../images/bolt-background.png");
+    height: 90px;
 }
-.header ul{
-    text-align: center;
-    margin-right: 150px;
+.header_logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
-.header ul li{
-    list-style: none;
-    display: inline-block;
-}
-.header ul li a{
-    display: block;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 700;
-    padding: 25px;
-    letter-spacing: 2px;
-    transition: background-color 200ms;
-}
-.header ul li a:hover{
+.bolt_logo{
     background-color: blueviolet;
+    border-radius: 50%;
+}
+.header_logo_text{
+    color: white;
+    font-size: 31px;
+    margin: 0px 10px;
+}
+
+.navigator{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.class_locations{
+    margin: 0px 10px;
+}
+.class_locations > a{
+    border: none;
+    box-shadow: none;
+    background-color:transparent;
+    font-size: 18px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.nav1{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.class_locations > a:hover{
+    color: #8a2be2;
+    cursor:pointer;
+}
+
+.login_photo{
+    border-radius: 50%;
+}
+.login_photo > img{
+    height: 40px;
+}
+
+.filter-white {
+    filter: invert(99%) sepia(0%) saturate(7490%) hue-rotate(114deg) brightness(102%) contrast(98%);
+}
+
+.filter-purple {
+    filter: invert(13%) sepia(98%) saturate(6809%) hue-rotate(273deg) brightness(94%) contrast(125%);
 }
 .container-2 {
     display:flex;
@@ -202,10 +231,7 @@ body {
     color: #FFFFFF;
     cursor: pointer;
 }
-/* .logo-footer {
-    width: 100px;
-} */
-/* .footer{
+.footer{
     margin-top: 50px;
     height: 90px;
     display: flex;
@@ -213,85 +239,6 @@ body {
     align-items: center;
     color: white;
     font-size: 36px;
-} */
-.footer{
-	background-image: url("../images/bolt-background.png") ;
-    padding: 70px 0;
-    display: flex-row;
-}
-.footer-col{
-   width: 25%;
-   padding: 0 15px;
-}
-.footer-col h4{
-	font-size: 18px;
-	color: #ffffff;
-	text-transform: capitalize;
-	margin-bottom: 35px;
-	font-weight: 500;
-	position: relative;
-}
-.footer-col h4::before{
-	content: '';
-	position: absolute;
-	left:0;
-	bottom: -10px;
-	background-color: #8a1ee9;
-	height: 2px;
-	box-sizing: border-box;
-	width: 50px;
-}
-.footer-col ul li:not(:last-child){
-	margin-bottom: 10px;
-}
-.footer-col ul li a{
-	font-size: 16px;
-	text-transform: capitalize;
-	color: #ffffff;
-	text-decoration: none;
-	font-weight: 300;
-	color: #bbbbbb;
-	display: block;
-	transition: all 0.3s ease;
-}
-.footer-col ul li a:hover{
-	color: #ffffff;
-	padding-left: 8px;
-}
-.footer-col .social-links a{
-	display: inline-block;
-	height: 40px;
-	width: 40px;
-	background-color: rgba(255,255,255,0.2);
-	margin:0 10px 10px 0;
-	text-align: center;
-	line-height: 40px;
-	border-radius: 50%;
-	color: #ffffff;
-	transition: all 0.5s ease;
-}
-.footer-col .social-links a:hover{
-	color: #24262b;
-	background-color: #ffffff;
-}
-/* .container-footer{
-	position: absolute;
-	left: 50%;
-	top:50%;
-	transform: translate(-50%,-50%);
-	text-align: center;
-} */
-/*responsive*/
-@media(max-width: 767px){
-    .footer-col{
-      width: 50%;
-      margin-bottom: 30px;
-    }
-}
-@media(max-width: 574px){
-    .footer-col{
-        width: 100%;
-    }
 }
 a {
     text-decoration: none;

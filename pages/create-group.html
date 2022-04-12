@@ -19,13 +19,13 @@
 <body>
     <div class="header">
         <div class="header_logo">
-            <img class="filter-purple" src="../images/logo.svg" alt="" height="46px">
+            <img class="filter-purple" src="../images/Bolt Groups-Feyi/logo.svg" alt="" height="46px">
         </div>
         <div class="navigator">
-            <div class="class_locations"><a class="nav1">Home</a></div>
-            <div class="class_locations"><a class="nav1">Groups</a></div>
-            <div class="class_locations"><a class="nav1">Events</a></div>
-            <div class="class_locations"><a class="nav1">Info</a></div>
+            <div class="class_locations"><a class="nav1" href="../pages/home.html">Home</a></div>
+            <div class="class_locations"><a class="nav1" href="../pages/home.html">Groups</a></div>
+            <div class="class_locations"><a class="nav1" href="#">Events</a></div>
+            <div class="class_locations"><a class="nav1" href="../pages/vehicle.html">Vehicle Search</a></div>
         </div>
         <div class="login_photo">
             <img class="filter-white" src="../images/Bolt Groups-Feyi/profile-svgrepo-com.svg" alt="">
@@ -40,10 +40,10 @@
             </div>
         </div>
         <!-- Add Image Section -->
-        <form action="../Bolt Groups-Feyi/index.html">
+        <form action="../pages/group-page.html">
             <div class="container-3">
                 <input style="display:none" type="file" id="my-file" name="image" accept="image/*" onchange="loadFile(event)">
-                <button id="get" class="box-add-image" type="button" onclick="document.getElementById('my-file').click()">
+                <button id="group-image" class="box-add-image" type="button" onclick="document.getElementById('my-file').click()">
                     <h3>Add Image</h3>
                 </button>
                 <img id="output" width="100%" style="display:none"/>
@@ -55,7 +55,7 @@
 
                         hidden = !hidden;
                         if(hidden) {
-                            document.getElementById('get').style = 'display:none';
+                            document.getElementById('group-image').style = 'display:none';
                             document.getElementById('output').style.display = 'block';
                         }
                     }
@@ -80,17 +80,18 @@
                         </div>
                     </div>
                     <div class="description-section">
-                        <input type="text" class="group_name" placeholder = "Group Name">
-                        <textarea class="purpose" name="purpose" rows="2" cols="20" placeholder="Your group's purpose"></textarea>
+                        <input type="text" class="group_name" id="group-name" placeholder = "Group Name">
+                        <textarea class="purpose" id="group-purpose" name="purpose" rows="2" cols="20" placeholder="Your group's purpose"></textarea>
                     </div>
                 </div>
-                <button type="submit" class="create" id="create-group">Create</button>
+                <button type="submit" class="create" id="create-group" href="../pages/home.html">Create</button>
             </div>
         </form>
         <!-- Footer -->
         <div class="footer">
-            <img class= "filter-purple"src="../images/logo.svg" alt="" height="46px">
+            <img class= "filter-purple"src="../images/Bolt Groups-Feyi/logo.svg" alt="" height="46px">
         </div>
     </div>
+    <script src="../js/create-group.js"></script>
 </body>
 </html>
