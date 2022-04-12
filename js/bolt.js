@@ -34,8 +34,8 @@ function updateGroups(groups) {
                             </div>
                         </div>
                         <div class="tags">
-                            <a href="#">${group.interests[0]}</a>
-                            <a href="#">${group.interests[1]}</a>
+                            <a href="../pages/highlight.html">Highlights</a>
+                            <a href="../pages/map.html">Map</a>
                         </div>
                     </div>
                 </div>
