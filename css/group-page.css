@@ -107,6 +107,7 @@
 
 .jzdbox1 {
     width:315px; 
+    height: 333px !important; 
     background:#332f2e; 
     border-radius:5px; 
     overflow:hidden; 
@@ -177,3 +178,11 @@
     min-width:150px; 
     max-width:150px;
   }
+
+
+@media screen and (max-width: 1400px) {
+    .main_body{
+        display: flex;
+        flex-direction: column;
+    }
+}
