@@ -20,8 +20,11 @@ getVehicle()
            <div class="card">
              <img src="${car.Img}" class="card-img-top" alt="...">
              <div class="card-body">
-               <h5 class="card-title">${car.Make}</h5>
-               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+               <div class="car-make"><h5 class="card-title">${car.Make}</h5><h7 class="card-title">${car.Model}</h7></div>
+               <p class="card-text"><ul>
+               <li>0-60: ${car["0-60"]}s</li>
+               <li>Quarter Mile: ${car["Quarter Mile"]}s</li>
+               </ul></p>
              </div>
            </div>
          </div>`
