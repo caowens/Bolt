@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolt Map</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/map.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #map{
+          height: 500px;
+          width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header_logo">
+            <img class="filter-purple" src="../images/Bolt Groups-Feyi/logo.svg" alt="" height="46px">
+        </div>
+        <div class="navigator">
+            <div class="class_locations"><a class="nav1" href="../pages/home.html">Home</a></div>
+            <div class="class_locations"><a class="nav1" href="../pages/home.html">Groups</a></div>
+            <div class="class_locations"><a class="nav1" href="#">Events</a></div>
+            <div class="class_locations"><a class="nav1" href="../pages/vehicle.html">Vehicle Search</a></div>
+        </div>
+        <div class="login_photo">
+            <img class="filter-white" src="../images/Bolt Groups-Feyi/profile-svgrepo-com.svg" alt="">
+        </div>
+    </div>
+    <div id="map"></div>
+      <script>
+          function initMap(){
+            var location = {lat: 36.1627,lng:-86.7816};
+            var map = new google.maps.Map(document.getElementById("map"),{
+                zoom: 4,
+                center: location
+            });
+            var marker = new google.maps.Marker({
+                position: location,
+                map: map
+            });
+        }
+      </script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-tVvIx-b6Ds_dT2sh5nz5xTRUGD7f6JI&callback=initMap"></script>
+      
+</body>
+<footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>BOLT</h4>
+          <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">help center</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">faqs</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><img src="../images/discord.svg" class="discord"></img></a>
+            <a href="#"><img src="../images/twitter.svg"class="twitter"></img></a>
+            <a href="#"><img src="../images/instagram.svg"class="instagram"></img></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</html>
+
