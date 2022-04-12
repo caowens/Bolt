@@ -39,7 +39,6 @@ updateCars = (data) =>{
 }
 getVehicle()
     .then(data=>{
-<<<<<<< HEAD
       cars = data;
       updateCars(data);
 })
@@ -70,30 +69,3 @@ searchBtn.addEventListener('click',(e)=>{
   let filteredList = filterByName();
   updateCars(filteredList);
 });
-=======
-       const cardata = data;
-       const carddata = document.querySelector("#data");
-    
-       replacer = ""
-
-       cardata.forEach(car=>{
-           text = `<div class="col">
-           <div class="card">
-             <img src="${car.Img}" class="card-img-top" alt="...">
-             <div class="card-body">
-               <div class="car-make"><h5 class="card-title">${car.Year} ${car.Make} ${car.Model}</h5></div>
-               <p class="card-text"><ul>
-               <li>0-60: ${car["0-60"]}s</li>
-               <li>Quarter Mile: ${car["Quarter Mile"]}s</li>
-               </ul></p>
-             </div>
-           </div>
-         </div>`
-
-         replacer+=text;
-       })
-
-
-       carddata.innerHTML = replacer;
-    })
->>>>>>> e19224bd0a459ce72e13d32c4ae989e24a25e3a4
