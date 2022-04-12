@@ -22,7 +22,7 @@ updateCars = (data) =>{
       <div class="card">
         <img src="${car.Img}" class="card-img-top" alt="...">
         <div class="card-body">
-          <div class="car-make"><h5 class="card-title">${car.Make}</h5><h7 class="card-title">${car.Model}</h7></div>
+          <div class="car-make"><h5 class="card-title">${car.Make}</h5><h7 class="card-title">${car.Model} &nbsp ${car.Year}</h7></div>
           <p class="card-text"><ul>
           <li>0-60: ${car["0-60"]}s</li>
           <li>Quarter Mile: ${car["Quarter Mile"]}s</li>
