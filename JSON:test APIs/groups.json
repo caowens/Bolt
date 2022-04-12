@@ -2,36 +2,41 @@
     {
         "host":"charles123",
         "name":"Corvette Corvette",
-        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate illo similique amet atque reprehenderit sequi nostrum fuga, accusamus molestias natus, quae eos possimus, iure praesentium nobis laboriosam provident itaque laborum.",
+        "description":"Hop in and go.",
         "location":"San Francisco, CA",
-        "image":""
+        "image":"../images/corvette.jpeg",
+        "interests":["appearance", "sports cars"]
     },
     {
         "host":"timia123",
         "name":"Mighty Mustangs",
-        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate illo similique amet atque reprehenderit sequi nostrum fuga, accusamus molestias natus, quae eos possimus, iure praesentium nobis laboriosam provident itaque laborum.",
+        "description":"Be there.",
         "location":"Seattle, WA",
-        "image":""
+        "image":"../images/mustang.jpeg",
+        "interests":["horsepower", "Ford"]
     },
     {
         "host":"asha123",
         "name":"Tesla Life",
-        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate illo similique amet atque reprehenderit sequi nostrum fuga, accusamus molestias natus, quae eos possimus, iure praesentium nobis laboriosam provident itaque laborum.",
+        "description":"Charge up and come through.",
         "location":"Austin, TX",
-        "image":""
+        "image":"../images/tesla.webp",
+        "interests":["eco-friendly", "electric"]
     },
     {
         "host":"feyi123",
-        "name":"Camara Joyriders",
-        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate illo similique amet atque reprehenderit sequi nostrum fuga, accusamus molestias natus, quae eos possimus, iure praesentium nobis laboriosam provident itaque laborum.",
+        "name":"Camaro Joyriders",
+        "description":"Camaro joy riders.",
         "location":"Nashville, TN",
-        "image":""
+        "image":"../images/camaro.jpeg",
+        "interests":["reliability", "old-fashioned"]
     },
     {
         "host":"justin123",
         "name":"GTR",
-        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate illo similique amet atque reprehenderit sequi nostrum fuga, accusamus molestias natus, quae eos possimus, iure praesentium nobis laboriosam provident itaque laborum.",
+        "description":"GTR open meet.",
         "location":"NYC, NY",
-        "image":""
+        "image":"../images/gtr.jpeg",
+        "interests":["supercars", "Nissan"]
     }
 ]
