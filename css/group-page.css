@@ -46,6 +46,7 @@
     font-size: 18px;
     font-weight: bold;
     color: aliceblue;
+    height: 60px;
 }
 
 .nav1 {
@@ -88,7 +89,7 @@
     justify-content: space-around;
     margin: auto;
     width: 100%;
-    height: auto;
+    height: 450px;
 }
 
 .card {
