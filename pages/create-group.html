@@ -43,7 +43,7 @@
         <form action="../pages/group-page.html">
             <div class="container-3">
                 <input style="display:none" type="file" id="my-file" name="image" accept="image/*" onchange="loadFile(event)">
-                <button id="get" class="box-add-image" type="button" onclick="document.getElementById('my-file').click()">
+                <button id="group-image" class="box-add-image" type="button" onclick="document.getElementById('my-file').click()">
                     <h3>Add Image</h3>
                 </button>
                 <img id="output" width="100%" style="display:none"/>
@@ -55,7 +55,7 @@
 
                         hidden = !hidden;
                         if(hidden) {
-                            document.getElementById('get').style = 'display:none';
+                            document.getElementById('group-image').style = 'display:none';
                             document.getElementById('output').style.display = 'block';
                         }
                     }
@@ -80,11 +80,11 @@
                         </div>
                     </div>
                     <div class="description-section">
-                        <input type="text" class="group_name" placeholder = "Group Name">
-                        <textarea class="purpose" name="purpose" rows="2" cols="20" placeholder="Your group's purpose"></textarea>
+                        <input type="text" class="group_name" id="group-name" placeholder = "Group Name">
+                        <textarea class="purpose" id="group-purpose" name="purpose" rows="2" cols="20" placeholder="Your group's purpose"></textarea>
                     </div>
                 </div>
-                <button type="submit" class="create" id="create-group">Create</button>
+                <button type="submit" class="create" id="create-group" href="../pages/home.html">Create</button>
             </div>
         </form>
         <!-- Footer -->
@@ -92,5 +92,6 @@
             <img class= "filter-purple"src="../images/Bolt Groups-Feyi/logo.svg" alt="" height="46px">
         </div>
     </div>
+    <script src="../js/create-group.js"></script>
 </body>
 </html>
