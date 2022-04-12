@@ -1,3 +1,4 @@
+<? php require("../js/script.php") ?>
 <!DOCTYPE html>
 <html lang="en">
 <!-- Charles Owens -->
@@ -22,10 +23,10 @@
             <img class="filter-purple" src="../images/Bolt Groups-Feyi/logo.svg" alt="" height="46px">
         </div>
         <div class="navigator">
-            <div class="class_locations"><a class="nav1" href="../pages/home.html">Home</a></div>
-            <div class="class_locations"><a class="nav1" href="../pages/home.html">Groups</a></div>
-            <div class="class_locations"><a class="nav1" href="#">Events</a></div>
-            <div class="class_locations"><a class="nav1" href="../pages/vehicle.html">Vehicle Search</a></div>
+            <div class="class_locations"><a class="nav1" href="../pages/home.html">HOME</a></div>
+            <div class="class_locations"><a class="nav1" href="../pages/home.html">GROUPS</a></div>
+            <div class="class_locations"><a class="nav1" href="#">EVENTS</a></div>
+            <div class="class_locations"><a class="nav1" href="../pages/vechicle.html">VEHICLE SEARCH</a></div>
         </div>
         <div class="login_photo">
             <img class="filter-white" src="../images/Bolt Groups-Feyi/profile-svgrepo-com.svg" alt="">
@@ -40,7 +41,7 @@
             </div>
         </div>
         <!-- Add Image Section -->
-        <form action="../pages/home.html">
+        <form action="../pages/home.html" method="post">
             <div class="container-3">
                 <input style="display:none" type="file" id="my-file" name="image" accept="image/*" onchange="loadFile(event)">
                 <button id="group-image" class="box-add-image" type="button" onclick="document.getElementById('my-file').click()">
@@ -84,7 +85,9 @@
                         <textarea name="description" class="purpose"type="text" id="group-purpose" name="purpose" rows="2" cols="20" placeholder="Your group's purpose"></textarea>
                     </div>
                 </div>
-                <button type="submit" class="create" id="create-group">Create</button>
+                <button type="submit" class="create" id="create-group" name="submit">Create</button>
+                <p class="error"><?php echo @$error ?></p>
+                <p class="success"><?php echo @#succes ?></p>
             </div>
         </form>
         <!-- Footer -->
