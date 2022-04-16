@@ -26,7 +26,7 @@ function updateGroups(groups) {
                         <i class="fa fa-star" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                     </span>
-                    <p class="information">${group['long deslong descriptionription']}</p>
+                    <p class="information">${group['long description']}</p>
                     <div class="control">
                         <button class="btn">
                             <span class="price">${group.fee}</span>
