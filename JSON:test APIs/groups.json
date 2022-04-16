@@ -4,39 +4,59 @@
         "name":"Corvette Corvette",
         "description":"Hop in and go.",
         "location":"San Francisco, CA",
+        "date":"APRIL",
+        "long description":"\" We plan social events, meet monthly and travel together as a club to various car shows. The Club hosts several events, one is the Annual Toy Drive each November, which benefits a local charity.",
         "image":"../images/corvette.jpeg",
-        "interests":["appearance", "sports cars"]
+        "page image":"../images/Bolt Groups-Feyi/Stingray.jpeg",
+        "interests":["appearance", "sports cars"],
+        "fee":"$250"
     },
     {
         "host":"timia123",
         "name":"Mighty Mustangs",
         "description":"Be there.",
         "location":"Seattle, WA",
+        "date":"JAN",
+        "long description":"\" Do you need a pace to belong at home and discuss the great American muscle? Then you belong with us. We have charity drives, races and various events. BTW: Eco-boosts are not Mustangs.",
         "image":"../images/mustang.jpeg",
-        "interests":["horsepower", "Ford"]
+        "page image":"../images/Bolt Groups-Feyi/mustangs.jpg",
+        "interests":["horsepower", "Ford"],
+        "fee":"$200"
     },
     {
         "host":"asha123",
         "name":"Tesla Life",
         "description":"Charge up and come through.",
         "location":"Austin, TX",
+        "date":"FEB",
+        "long description":"\" Do you think you are better than your friends because you drive a Tesla and they drive gas cars? Yes you are. We have weekly car meets, mothly charity events, and we go for the annual Tesla convention together\"",
         "image":"../images/tesla.webp",
-        "interests":["eco-friendly", "electric"]
+        "page image":"../images/Bolt Groups-Feyi/tesla.jpg",
+        "interests":["eco-friendly", "electric"],
+        "fee":"$500"
     },
     {
         "host":"feyi123",
         "name":"Camaro Joyriders",
         "description":"Camaro joy riders.",
         "location":"Nashville, TN",
+        "date":"JUNE",
+        "long description":"\" Challengers are the best muscle cars on the market and that is a fact. As a group we have friendly drag races, toy runs during christmas, and have bi-weekly car meets\"",
         "image":"../images/camaro.jpeg",
-        "interests":["reliability", "old-fashioned"]
+        "page image":"../images/Bolt Groups-Feyi/Camaro.jpg",
+        "interests":["reliability", "old-fashioned"],
+        "fee":"$200"
     },
     {
         "host":"justin123",
         "name":"GTR",
         "description":"GTR open meet.",
         "location":"NYC, NY",
+        "date":"MARCH",
+        "long description":"\" You actually have taste. Let's pay tribute to Miata and the OG GTR \"",
         "image":"../images/gtr.jpeg",
-        "interests":["supercars", "Nissan"]
+        "page image":"../images/Bolt Groups-Feyi/GTR.jpg",
+        "interests":["supercars", "Nissan"],
+        "fee":"$350"
     }
 ]
