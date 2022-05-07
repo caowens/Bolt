@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Log In/Sign Up </title>
+</head>
+<body>
+    <!-- logo filtered to purple -->
+    <div class="logo">
+        <img class= "filter-purple logo" src="../images/bolt-logo.svg" alt="Bolt Logo" >
+    </div>
+    <div class="main">
+        <!-- form for signing up with username, email and password -->
+        <input type="checkbox" id="check" aria-hidden="true">
+        <div class="signup">
+            <form action="../pages/home.html">
+                <label for="check" aria-hidden="true">Sign Up</label>
+                <input type="text" name="text" placeholder="User name" required="">
+                <input type="email" name="email" placeholder="Email" required="">
+                <input type="password" name="password" placeholder="Password" required="">
+                <button>Sign up here</button>
+            </form>
+        </div>
+        <!-- form for logging in with just user name and password -->
+        <div class="login">
+            <form action="../pages/home.html">
+                <label for="check" aria-hidden="true">Login</label>
+                <input type="text" name="text" placeholder="User name" required="">
+                <input type="password" name="password" placeholder="Password" required="">
+                <button>Login</button>
+            </form>
+        </div>
+    </div>
+        <script src="bootstrap.bundle.min.js"></script>
+    </body>
+</html>
